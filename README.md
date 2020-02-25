@@ -1,5 +1,5 @@
 # Flowershop
-flowershop demo here https://github.com/Kikipupa/Flowershop
+flowershop demo here https://kikipupa.github.io/Flowershop/
 
 # original mockup here
 
