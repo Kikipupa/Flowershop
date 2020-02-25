@@ -1,5 +1,53 @@
 body{
-    background-color: #efe4df;
+    background-color: #f3eeec;
+}
+
+header{
+    background-color: pink;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
 }
 
 /* todo: add styles here */
+
+.user-profile{
+    
+    width: 32px;
+    height: 32px;
+    background-image: url(./images/user.png);
+}
+.shopping-cart{
+
+    width: 32px;
+    height: 32px;
+    background-image: url(./images/cart.png);
+}
+.splash-screen{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/flower-header-left.png), url(./images/flower-header-right.png);
+    background-repeat: no-repeat;
+    background-size: 50vw 50vw;
+    background-position: top left, top right;
+}
+.splash-content{
+    width: 400px;
+    height: 300px;
+    align-items: center;
+}
