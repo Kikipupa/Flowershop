@@ -51,6 +51,7 @@ ul{
     height: 300px;
     align-items: center;
 }
-.how-we-work{
+.question{
     background-image: url(./images/how-work4.png);
+    background-repeat: no-repeat;
 }
