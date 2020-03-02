@@ -54,4 +54,6 @@ ul{
 .how-we-work{
     background-image: url(./images/how-work4.png);
     background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
 }
