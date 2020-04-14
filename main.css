@@ -1,5 +1,15 @@
+@font-face {
+    font-family: coral-waves;
+    src: url(./coral-waves.otf);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  :root{
+      --color-brown:#6a5051;
+  }
 body{
     background-color: #f3eeec;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
 
 header{
@@ -20,6 +30,12 @@ ul{
 .flex-column{
     display: flex;
     flex-direction: column;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
 }
 
 /* todo: add styles here */
@@ -52,9 +68,59 @@ ul{
     align-items: center;
 }
 .how-we-work{
-    background-image: url(./images/how-work4.png);
     background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
+}
+.step{
+    width: 150px;
+    height: 150px;
+}
+[class^=arrow-]{
+    width: 60px;
+    height: 60px;
+}
+.arrow-down{
+    background-image: url(./images/cursor1.png);
+}
+.arrow-up{
+    background-image: url(./images/cursor2.png);
+
+
+}
+    
+[class^=step-image]{
+    width: 90px;
+    height: 90px;
+}
+.step-image-1{
+    background-image: url(./images/how\ work1.png);
+    
+}
+.step-image-2{
+    background-image: url(./images/how\ work2.png);
+    
+}
+.step-image-3{
+    background-image: url(./images/how\ work3.png);
+    
+}
+.step-image-4{
+    background-image: url(./images/how-work4.png);
+
+}
+.step-text{
+    text-align: center;
+}
+.section-title{
+    font-family: coral-waves, sans-serif;
+    font-size: 25px;
+    color: var(--color-brown);
+    text-align: center;
+}
+.splash-title{
+    font-family: coral-waves, sans-serif;
+    font-size: 60px;
+    color: var(--color-brown);
 }
 
