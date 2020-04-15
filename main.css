@@ -123,4 +123,7 @@ ul{
     font-size: 60px;
     color: var(--color-brown);
 }
+.button{
+    background-image: url(./images/cart-flowers.png);
+}
 
