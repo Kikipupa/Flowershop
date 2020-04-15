@@ -8,8 +8,7 @@
   }
 body{
     background-color: #f3eeec;
-    font-family: 'Montserrat', sans-serif;
-    --color-brown:#6a5051;
+    font-family: 'Montserrat', sans-serif, #6a5051;
     font-size: 12px;
 }
 
