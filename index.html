@@ -11,7 +11,11 @@
 <body>
     <header class="flex-row">
         <div class="title">flowers</div>
-        <div class="city-picker">Москва</div>
+        <select class="city-picker">
+            <option>Москва</option>
+            <option>Питер</option>
+            <option>Астрахань</option>
+        </select>
         <ul class="header-menu flex-row">
             <li class="menu-item">О компании</li>
             <li class="menu-item">Каталог</li>
@@ -39,12 +43,12 @@
     <div class="splash-title">
         Доставка букетов <br/> в течение 2 часов 
     </div>
-    <div class="text justify-center">
+    <div class="splash-text justify-center">
     <p>
          соберем оригинальный букет, учитивая все ваши пожелания<br></br> и доставим его получателю в любом городе россии
     </p>
     </div>
-    <button>
+    <button class="btn-order">
         Заказать
     </button>
     </div>
@@ -87,16 +91,63 @@
         <p>
             Эти букеты заказывают чаще всего, поэтому мы внесли их в наш каталог, но если вы хотите что-то необычное, воспользуйтесь нашей услугой заказа букета по фотографии 
         </p>
-        <div class="offers">
-            <div class="offer-1">
-                <img src="/images/flower1.png">
+        <div class="offers flex-row">
+            
+            <div class="offer flex-column align-center">
+                <img src="./images/flower1.png">
+                <div class="flex-row">
+                <div class="flex-column justify-center">
+                <div class="offer-name">Розовая фантазия</div>
+                <div class="offer-price">4900₽</div>
+                </div>
+                <button class=add-to-cart></button>
+                </div>
+
             </div>
-            <div class="offer-2"></div>
-            <div class="offer-3"></div>
-            <div class="offer-4"></div>
+
+            <div class="offer flex-column align-center">
+                <img src="./images/flower2.png">
+                <div class="flex-row">
+                <div class="flex-column justify-center">
+                <div class="offer-name">Дыхание весны</div>
+                <div class="offer-price">3200₽</div>
+                </div>
+                <button class=add-to-cart></button>
+                </div>
+            
+            </div>
+            
+            <div class="offer flex-column align-center">
+                <img src="./images/flower3.png">
+                <div class="flex-row">
+                <div class="flex-column justify-center">
+                <div class="offer-name">Романтика</div>
+                <div class="offer-price">2400₽</div>
+                </div>
+                <button class=add-to-cart></button>
+                </div>   
+            
+            </div>
+
+            <div class="offer flex-column align-center">
+                <img src="./images/flower4.png">
+                <div class="flex-row">
+                <div class="flex-column justify-center">
+                <div class="offer-name">Корзина тюльпанов</div>
+                <div class="offer-price">4500₽</div>
+                </div>
+                <button class=add-to-cart></button>
+                </div>
+            </div>
+        
+
+
+            </div>
+            <div class="offer"></div>
+            <div class="offer"></div>
         </div>
     </section>
-    <section class="ouw-work">
+    <section class="our-work">
         <div class="section-title">
             Наши работы
         </div>

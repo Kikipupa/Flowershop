@@ -1,0 +1,21 @@
+{
+  "name": "Flowershop",
+  "version": "1.0.0",
+  "description": "flowershop demo here https://kikipupa.github.io/Flowershop/",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kikipupa/Flowershop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kikipupa/Flowershop/issues"
+  },
+  "homepage": "https://github.com/Kikipupa/Flowershop#readme"
+}

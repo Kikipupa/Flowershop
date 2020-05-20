@@ -5,15 +5,39 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
   :root{
       --color-brown:#6a5051;
+      --color-green:#74806a;
+      --color-milk:#f2eeeb;
+
   }
 body{
     background-color: #f3eeec;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
+    margin: 0;
 }
 
 header{
-    background-color: pink;
+    background-color: #f7e4df;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.title{
+    font-weight: bold;
+    font-size: larger;
+}
+.header-menu{
+    padding: 0px 55px;
+}
+.menu-item{
+    padding: 0px 15px;
+}
+.phone{
+    padding: 0px 20px;
+}
+.city-picker{
+    border: none;
+    background-color: transparent;
 }
 
 ul{
@@ -47,8 +71,7 @@ ul{
     background-image: url(./images/user.png);
 }
 .shopping-cart{
-
-    width: 32px;
+    width: 32px;     
     height: 32px;
     background-image: url(./images/cart.png);
 }
@@ -62,10 +85,23 @@ ul{
     background-size: 50vw 50vw;
     background-position: top left, top right;
 }
+
 .splash-content{
     width: 400px;
     height: 300px;
     align-items: center;
+}
+.splash-title{
+    font-family: coral-waves, sans-serif;
+    font-size: 60px;
+    line-height: 0.85em;
+    color: var(--color-brown);
+    
+}
+.splash-text{
+    text-align: center;
+    color: var(--color-brown);
+    margin-top: 40px;
 }
 .how-we-work{
     background-repeat: no-repeat;
@@ -118,22 +154,37 @@ ul{
     color: var(--color-brown);
     text-align: center;
 }
-.splash-title{
-    font-family: coral-waves, sans-serif;
-    font-size: 60px;
+.offer{
+    width: 200px;
+    height: 280px;
+}
+
+
+.add-to-cart{
+    background-image: url(./images/cart-flowers.png);
+    width: 45px;
+    height: 45px;
+    background-position:center center;
+    border: none;
+}
+.offer-name{
+    color: var(--color-green);
+}
+.offer-price{
     color: var(--color-brown);
+    font-size: larger;
 }
-.offer-1{
-    background-image: url(./images/flower1.png);
+.btn-order{
+    background-color: var(--color-green);
+    border: none;
+    border-radius: 50px;
+    padding: 12px 37px;
+    color: var(--color-milk);
+    margin-top: 50px;
+
 }
-.offer-2{
-    background-image: url(./images/flower2.png);
-}
-.offer-3{
-    background-image: url(./images/flower3.png);
-}
-.offer-4{
-    background-image: url(./images/flower4.png);
-}
+
+
+
 
 
