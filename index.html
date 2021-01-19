@@ -1,5 +1,6 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
+<!-- КОМЕНТ ДЛЯ ВСЕГО ПРОЕКТА - ТЕКСТ НЕ ДОЛЖЕН ЛЕЖАТЬ ПРОСТО В ДИВЕ, А БОЛЬШИНСТВО ТЕГОВ БЫЛО БЫ НЕПЛОХО ОБЕРНУТЬ В ДИВ И ЦЕНТРИРОВАТЬ С ПОМОЩЬЮ CSS -->
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,13 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
+
 <body>
+    <!-- Зачем хедер внутри бади? -->
     <header class="flex-row">
+        <!-- Почему тут див в котором сразу текст? Оставляю коммент тут, но эта проблема по всему файлу! -->
         <div class="title">flowers</div>
+        <!-- Может обернуть всё это в див и потом центрировать с помощь флека? -->
         <select class="city-picker">
             <option>Москва</option>
             <option>Питер</option>
@@ -22,7 +27,7 @@
             <li class="menu-item">Портфолио</li>
             <li class="menu-item">Заказать</li>
             <li class="menu-item">Акции</li>
-            
+
         </ul>
         <div class="phone">8 (800) 123-45-67</div>
         <div class="header-right-block flex-row">
@@ -31,76 +36,76 @@
             <div class="shopping-cart"></div>
         </div>
 
-        
+        <!-- ОТКУДА ОТСТУПЫ? -->
     </header>
-    <section class="splash-screen 
-    flex-column">
-    
-   
+    <!-- Зачем используешь секшн? -->
+    <section class="splash-screen flex-column">
+        <div class="splash-content flex-column">
 
-    <div class="splash-content flex-column">
-
-    <div class="splash-title">
-        Доставка букетов <br/> в течение 2 часов 
-    </div>
-    <div class="splash-text justify-center">
-    <p>
-         соберем оригинальный букет, учитивая все ваши пожелания<br></br> и доставим его получателю в любом городе россии
-    </p>
-    </div>
-    <button class="btn-order">
-        Заказать
-    </button>
-    </div>
-    
+            <div class="splash-title">
+                Доставка букетов <br /> в течение 2 часов
+            </div>
+            <div class="splash-text justify-center">
+                <!-- Попробуй сделать отступы без br -->
+                <p>
+                    соберем оригинальный букет, учитивая все ваши пожелания<br></br> и доставим его получателю в любом
+                    городе россии
+                </p>
+            </div>
+            <button class="btn-order">
+                Заказать
+            </button>
+        </div>
     </section>
     <section class="how-we-work">
-    <div class="section-title">
-        Как мы работаем
-    </div>
-    <p>
-        Мы собираем огромную базу флористов и курьеров в каждом городе России, чтобы вы могли сделать приятное своим близким, даже находясь очень далеко от них
-    </p>
-    <div class="steps flex-row align-center justify-center" >
-        <div class="step flex-column align-center">
-            <div class="step-image-1"></div>
-            <div class="step-text">Вы рассказываете, какой букет вы хотите</div>
+        <div class="section-title">
+            Как мы работаем
         </div>
-        <div class="arrow-down"></div>
-        <div class="step flex-column align-center">
-            <div class="step-image-2"></div>
-            <div class="step-text">Менеджер называет вам точную стоимость</div>
+        <p>
+            Мы собираем огромную базу флористов и курьеров в каждом городе России, чтобы вы могли сделать приятное своим
+            близким, даже находясь очень далеко от них
+        </p>
+        <div class="steps flex-row align-center justify-center">
+            <div class="step flex-column align-center">
+                <div class="step-image-1"></div>
+                <div class="step-text">Вы рассказываете, какой букет вы хотите</div>
+            </div>
+            <div class="arrow-down"></div>
+            <div class="step flex-column align-center">
+                <div class="step-image-2"></div>
+                <div class="step-text">Менеджер называет вам точную стоимость</div>
+            </div>
+            <div class="arrow-up"></div>
+            <div class="step flex-column align-center">
+                <div class="step-image-3"></div>
+                <div class="step-text">Флористы делают ваш идеальный букет</div>
+            </div>
+            <div class="arrow-down"></div>
+            <div class="step flex-column align-center">
+                <div class="step-image-4"></div>
+                <div class="step-text">Курьер доставляет его получателю</div>
+            </div>
         </div>
-        <div class="arrow-up"></div>
-        <div class="step flex-column align-center">
-            <div class="step-image-3"></div>
-            <div class="step-text">Флористы делают ваш идеальный букет</div>
-        </div>
-        <div class="arrow-down"></div>
-        <div class="step flex-column align-center">
-            <div class="step-image-4"></div>
-            <div class="step-text">Курьер доставляет его получателю</div>
-        </div>
-    </div>
-    
+
     </section>
     <section class="main-offers">
         <div class="section-title">
             Стандартные букеты
         </div>
         <p>
-            Эти букеты заказывают чаще всего, поэтому мы внесли их в наш каталог, но если вы хотите что-то необычное, воспользуйтесь нашей услугой заказа букета по фотографии 
+            Эти букеты заказывают чаще всего, поэтому мы внесли их в наш каталог, но если вы хотите что-то необычное,
+            воспользуйтесь нашей услугой заказа букета по фотографии
         </p>
         <div class="offers flex-row">
-            
+
             <div class="offer flex-column align-center">
                 <img src="./images/flower1.png">
                 <div class="flex-row">
-                <div class="flex-column justify-center">
-                <div class="offer-name">Розовая фантазия</div>
-                <div class="offer-price">4900₽</div>
-                </div>
-                <button class=add-to-cart></button>
+                    <div class="flex-column justify-center">
+                        <div class="offer-name">Розовая фантазия</div>
+                        <div class="offer-price">4900₽</div>
+                    </div>
+                    <button class=add-to-cart></button>
                 </div>
 
             </div>
@@ -108,42 +113,42 @@
             <div class="offer flex-column align-center">
                 <img src="./images/flower2.png">
                 <div class="flex-row">
-                <div class="flex-column justify-center">
-                <div class="offer-name">Дыхание весны</div>
-                <div class="offer-price">3200₽</div>
+                    <div class="flex-column justify-center">
+                        <div class="offer-name">Дыхание весны</div>
+                        <div class="offer-price">3200₽</div>
+                    </div>
+                    <button class=add-to-cart></button>
                 </div>
-                <button class=add-to-cart></button>
-                </div>
-            
+
             </div>
-            
+
             <div class="offer flex-column align-center">
                 <img src="./images/flower3.png">
                 <div class="flex-row">
-                <div class="flex-column justify-center">
-                <div class="offer-name">Романтика</div>
-                <div class="offer-price">2400₽</div>
+                    <div class="flex-column justify-center">
+                        <div class="offer-name">Романтика</div>
+                        <div class="offer-price">2400₽</div>
+                    </div>
+                    <button class=add-to-cart></button>
                 </div>
-                <button class=add-to-cart></button>
-                </div>   
-            
+
             </div>
 
             <div class="offer flex-column align-center">
                 <img src="./images/flower4.png">
                 <div class="flex-row">
-                <div class="flex-column justify-center">
-                <div class="offer-name">Корзина тюльпанов</div>
-                <div class="offer-price">4500₽</div>
-                </div>
-                <button class=add-to-cart></button>
+                    <div class="flex-column justify-center">
+                        <div class="offer-name">Корзина тюльпанов</div>
+                        <div class="offer-price">4500₽</div>
+                    </div>
+                    <button class=add-to-cart></button>
                 </div>
             </div>
-        
 
 
-            </div>
-            
+
+        </div>
+
         </div>
     </section>
     <section class="our-work">
@@ -175,7 +180,8 @@
     </section>
     <section class="special-offers"></section>
     <footer>
-        footer 
+        footer
     </footer>
 </body>
+
 </html>
