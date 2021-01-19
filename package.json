@@ -17,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/Kikipupa/Flowershop/issues"
   },
-  "homepage": "https://github.com/Kikipupa/Flowershop#readme"
+  "homepage": "https://github.com/Kikipupa/Flowershop#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
 }

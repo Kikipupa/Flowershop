@@ -1,190 +1,174 @@
 @font-face {
-    font-family: coral-waves;
-    src: url(./coral-waves.otf);
-  }
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-  :root{
-      --color-brown:#6a5051;
-      --color-green:#74806a;
-      --color-milk:#f2eeeb;
-
-  }
-body{
-    background-color: #f3eeec;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    margin: 0;
+  font-family: coral-waves;
+  src: url(./coral-waves.otf);
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+:root {
+  --color-brown: #6a5051;
+  --color-green: #74806a;
+  --color-milk: #f2eeeb;
+}
+body {
+  background-color: #f3eeec;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  margin: 0;
 }
 
-header{
-    background-color: #f7e4df;
-    justify-content: space-around;
-    align-items: center;
-
+header {
+  background-color: #f7e4df;
+  justify-content: space-around;
+  align-items: center;
 }
-.title{
-    font-weight: bold;
-    font-size: larger;
+.title {
+  font-weight: bold;
+  font-size: larger;
 }
-.header-menu{
-    padding: 0px 55px;
+.header-menu {
+  padding: 0px 55px;
 }
-.menu-item{
-    padding: 0px 15px;
+.menu-item {
+  padding: 0px 15px;
 }
-.phone{
-    padding: 0px 20px;
+.phone {
+  padding: 0px 20px;
 }
-.city-picker{
-    border: none;
-    background-color: transparent;
-}
-
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.city-picker {
+  border: none;
+  background-color: transparent;
 }
 
-.flex-row{
-    display: flex;
-    flex-direction: row;
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.flex-column{
-    display: flex;
-    flex-direction: column;
+.flex-row {
+  display: flex;
+  flex-direction: row;
 }
-.align-center{
-    align-items: center;
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
-.justify-center{
-    justify-content: center;
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
 }
 
 /* todo: add styles here */
 
-.user-profile{
-    
-    width: 32px;
-    height: 32px;
-    background-image: url(./images/user.png);
+.user-profile {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/user.png);
 }
-.shopping-cart{
-    width: 32px;     
-    height: 32px;
-    background-image: url(./images/cart.png);
+.shopping-cart {
+  width: 32px;
+  height: 32px;
+  background-image: url(./images/cart.png);
 }
-.splash-screen{
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    background-image: url(./images/flower-header-left.png), url(./images/flower-header-right.png);
-    background-repeat: no-repeat;
-    background-size: 50vw 50vw;
-    background-position: top left, top right;
-}
-
-.splash-content{
-    width: 400px;
-    height: 300px;
-    align-items: center;
-}
-.splash-title{
-    font-family: coral-waves, sans-serif;
-    font-size: 60px;
-    line-height: 0.85em;
-    color: var(--color-brown);
-    
-}
-.splash-text{
-    text-align: center;
-    color: var(--color-brown);
-    margin-top: 40px;
-}
-.how-we-work{
-    background-repeat: no-repeat;
-    align-items: center;
-    justify-content: center;
-}
-.step{
-    width: 150px;
-    height: 150px;
-}
-[class^=arrow-]{
-    width: 60px;
-    height: 60px;
-}
-.arrow-down{
-    background-image: url(./images/cursor1.png);
-}
-.arrow-up{
-    background-image: url(./images/cursor2.png);
-
-
-}
-    
-[class^=step-image]{
-    width: 90px;
-    height: 90px;
-}
-.step-image-1{
-    background-image: url(./images/how\ work1.png);
-    
-}
-.step-image-2{
-    background-image: url(./images/how\ work2.png);
-    
-}
-.step-image-3{
-    background-image: url(./images/how\ work3.png);
-    
-}
-.step-image-4{
-    background-image: url(./images/how-work4.png);
-
-}
-.step-text{
-    text-align: center;
-}
-.section-title{
-    font-family: coral-waves, sans-serif;
-    font-size: 25px;
-    color: var(--color-brown);
-    text-align: center;
-}
-.offer{
-    width: 200px;
-    height: 280px;
+.splash-screen {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/flower-header-left.png),
+    url(./images/flower-header-right.png);
+  background-repeat: no-repeat;
+  background-size: 50vw 50vw;
+  background-position: top left, top right;
 }
 
-
-.add-to-cart{
-    background-image: url(./images/cart-flowers.png);
-    width: 45px;
-    height: 45px;
-    background-position:center center;
-    border: none;
+.splash-content {
+  width: 400px;
+  height: 300px;
+  align-items: center;
 }
-.offer-name{
-    color: var(--color-green);
+.splash-title {
+  font-family: coral-waves, sans-serif;
+  font-size: 60px;
+  line-height: 0.85em;
+  color: var(--color-brown);
 }
-.offer-price{
-    color: var(--color-brown);
-    font-size: larger;
+.splash-text {
+  text-align: center;
+  color: var(--color-brown);
+  margin-top: 40px;
 }
-.btn-order{
-    background-color: var(--color-green);
-    border: none;
-    border-radius: 50px;
-    padding: 12px 37px;
-    color: var(--color-milk);
-    margin-top: 50px;
-
+.how-we-work {
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+}
+.step {
+  width: 150px;
+  height: 150px;
+}
+[class^="arrow-"] {
+  width: 60px;
+  height: 60px;
+}
+.arrow-down {
+  background-image: url(./images/cursor1.png);
+}
+.arrow-up {
+  background-image: url(./images/cursor2.png);
 }
 
+[class^="step-image"] {
+  width: 90px;
+  height: 90px;
+}
+.step-image-1 {
+  background-image: url(./images/how\ work1.png);
+}
+.step-image-2 {
+  background-image: url(./images/how\ work2.png);
+}
+.step-image-3 {
+  background-image: url(./images/how\ work3.png);
+}
+.step-image-4 {
+  background-image: url(./images/how-work4.png);
+}
+.step-text {
+  text-align: center;
+}
+.section-title {
+  font-family: coral-waves, sans-serif;
+  font-size: 25px;
+  color: var(--color-brown);
+  text-align: center;
+}
+.offer {
+  width: 200px;
+  height: 280px;
+}
 
-
-
-
+.add-to-cart {
+  background-image: url(./images/cart-flowers.png);
+  width: 45px;
+  height: 45px;
+  background-position: center center;
+  border: none;
+}
+.offer-name {
+  color: var(--color-green);
+}
+.offer-price {
+  color: var(--color-brown);
+  font-size: larger;
+}
+.btn-order {
+  background-color: var(--color-green);
+  border: none;
+  border-radius: 50px;
+  padding: 12px 37px;
+  color: var(--color-milk);
+  margin-top: 50px;
+}
